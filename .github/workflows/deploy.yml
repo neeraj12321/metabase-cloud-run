@@ -13,7 +13,7 @@ env:
   REGISTRY_HOSTNAME: gcr.io
   REGISTRY_IMAGE_NAME: ${{ github.event.repository.name }}
   CLOUD_RUN_SERVICE_NAME: ${{ github.event.repository.name }}
-  CLOUD_RUN_REGION: us-east1
+  CLOUD_RUN_REGION: us-central1
   CLOUD_RUN_CPU: 1
   CLOUD_RUN_MEMORY: 4Gi
   CLOUD_RUN_TIMEOUT: 120s
